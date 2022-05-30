@@ -1,0 +1,42 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+
+}
+img{
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+#total_amount{
+    text-align: start;
+}
+h3{
+    text-align: center;
+}
+#box{
+    border: 2px solid brown;
+    padding: 10px;
+}
+#remove_coffee{
+    margin-left: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#remove_coffee:hover{
+    background-color: red;
+}
+
+#confirm_checkout{
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#confirm_checkout:hover{
+    background-color: yellow;
+}
